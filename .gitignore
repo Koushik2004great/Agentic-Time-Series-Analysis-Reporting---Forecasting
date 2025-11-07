@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+
+# Generated Outputs (You don't usually track generated files in Git)
+# outputs/
+# *.pkl
+
+# VS Code
+.vscode/
+
+.venv

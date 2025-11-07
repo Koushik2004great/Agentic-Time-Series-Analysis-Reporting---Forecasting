@@ -1,0 +1,20 @@
+{
+  "paths": {
+    "input_directory": "data/input",
+    "output_directory": "outputs",
+    "log_subdirectory": "logs",
+    "plot_subdirectory": "plots",
+    "report_subdirectory": "reports",
+    "model_directory": "models"
+  },
+  "filenames": {
+    "final_log": "final_analysis_log.json",
+    "final_model": "best_sarima_model.pkl",
+    "technical_report": "technical_executive_summary.md",
+    "non_technical_report": "non_technical_executive_summary.md"
+  },
+  "parameters": {
+    "forecast_steps": 12,
+    "seasonal_period": 12
+  }
+}
