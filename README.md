@@ -1,6 +1,6 @@
 # Project Scribe: Interactive AI for Time Series Forecasting
 
-Project Scribe is an autonomous, interactive AI agent designed to perform end-to-end time series analysis and forecasting. It leverages a Large Language Model (LLM) as its core reasoning engine to replicate the entire workflow of a professional data scientist. The agent can inspect unfamiliar datasets, interact with the user to clarify goals, and then autonomously execute a robust statistical analysis pipeline, culminating in tailored reports for both technical and business audiences.
+It is an autonomous, interactive AI agent designed to perform end-to-end time series analysis and forecasting. It leverages a Large Language Model (LLM) as its core reasoning engine to replicate the entire workflow of a professional data scientist. The agent can inspect unfamiliar datasets, interact with the user to clarify goals, and then autonomously execute a robust statistical analysis pipeline, culminating in tailored reports for both technical and business audiences.
 
 This project represents a paradigm shift from static automation scripts to dynamic, intelligent agents that can reason, act, and collaborate to solve complex analytical problems.
 
